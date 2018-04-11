@@ -1,6 +1,13 @@
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
+/**
+ * 本方法是一个阿里云的面试题
+ * 题目要求：1.两个线程，一个线程生产者，一个线程是消费者
+ *          2.生产者生产票，超过10张就休息，被消费了就继续生产。
+ *          3.消费者消费票，票没了之后就休息，有票了接着消费。
+ * 考点：消息队列、线程、线程通信、锁
+ */
 public class AliTest {
 
     static String waitProp = new String();

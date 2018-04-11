@@ -1,14 +1,11 @@
 import java.util.Random;
 import java.util.concurrent.*;
 
-public class Test {
-}
-
-class BarrierDemo {
+public class BarrierDemo {
    public static void main(String[] args) {
        ExecutorService service = Executors.newFixedThreadPool(5);
        final CyclicBarrier barrier = new CyclicBarrier(4);
-       for (int i = 0; i < 5; i++) {
+       for (int i = 0; i < 4; i++) {
            service.execute(new Player("玩家" + i, barrier));
        }
        service.shutdown();
