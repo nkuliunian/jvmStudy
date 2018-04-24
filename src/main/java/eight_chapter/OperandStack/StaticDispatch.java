@@ -1,4 +1,4 @@
-package jvm.eight_chapter.OperandStack;
+package eight_chapter.OperandStack;
 
 /**
  * 方法静态分派演示

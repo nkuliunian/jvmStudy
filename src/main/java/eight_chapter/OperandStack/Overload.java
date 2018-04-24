@@ -1,4 +1,4 @@
-package jvm.eight_chapter.OperandStack;
+package eight_chapter.OperandStack;
 
 import java.io.Serializable;
 

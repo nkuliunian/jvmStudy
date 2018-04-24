@@ -1,4 +1,4 @@
-package jvm.eight_chapter.OperandStack;
+package eight_chapter.OperandStack;
 
 /**
  * 单分派、多分派演示

@@ -1,4 +1,4 @@
-package jvm.eight_chapter.dynamicLanguageSupport;
+package eight_chapter.dynamicLanguageSupport;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodType;

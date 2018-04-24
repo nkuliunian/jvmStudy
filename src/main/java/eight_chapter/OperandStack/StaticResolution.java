@@ -1,4 +1,4 @@
-package jvm.eight_chapter.OperandStack;
+package eight_chapter.OperandStack;
 
 /**
  * 方法静态解析演示，使用javap命令
@@ -18,10 +18,10 @@ public class StaticResolution {
 }
 
     /**  javap执行结果：
-     D:\java\jdk1.8.0_161\bin\javap.exe -c jvm.eight_chapter.OperandStack.StaticResolution
+     D:\java\jdk1.8.0_161\bin\javap.exe -c StaticResolution
      Compiled from "StaticResolution.java"
-     public class jvm.eight_chapter.OperandStack.StaticResolution {
-     public jvm.eight_chapter.OperandStack.StaticResolution();
+     public class StaticResolution {
+     public StaticResolution();
      Code:
      0: aload_0
      1: invokespecial #1                  // Method java/lang/Object."<init>":()V

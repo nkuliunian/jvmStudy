@@ -1,4 +1,4 @@
-package jvm.eight_chapter.dynamicLanguageSupport;
+package eight_chapter.dynamicLanguageSupport;
 
 import java.lang.invoke.*;
 
@@ -43,10 +43,10 @@ public class InvokeDynamicTest {
  hello String:icyfenix
  ******************/
 /************  javap查看字节码
- D:\java\jdk1.8.0_161\bin\javap.exe -c jvm.eight_chapter.dynamicLanguageSupport.InvokeDynamicTest
+ D:\java\jdk1.8.0_161\bin\javap.exe -c InvokeDynamicTest
  Compiled from "InvokeDynamicTest.java"
- public class jvm.eight_chapter.dynamicLanguageSupport.InvokeDynamicTest {
- public jvm.eight_chapter.dynamicLanguageSupport.InvokeDynamicTest();
+ public class InvokeDynamicTest {
+ public InvokeDynamicTest();
  Code:
  0: aload_0
  1: invokespecial #1                  // Method java/lang/Object."<init>":()V

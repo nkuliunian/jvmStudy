@@ -1,4 +1,4 @@
-package jvm.eight_chapter.OperandStack;
+package eight_chapter.OperandStack;
 
 /**
  * 方法动态分派演示
@@ -35,10 +35,10 @@ public class DynamicDispatch {
 }
 
     /*****   javap查看字节码
-     D:\java\jdk1.8.0_161\bin\javap.exe -c jvm.eight_chapter.OperandStack.DynamicDispatch
+     D:\java\jdk1.8.0_161\bin\javap.exe -c DynamicDispatch
      Compiled from "DynamicDispatch.java"
-     public class jvm.eight_chapter.OperandStack.DynamicDispatch {
-     public jvm.eight_chapter.OperandStack.DynamicDispatch();
+     public class DynamicDispatch {
+     public DynamicDispatch();
      Code:
      0: aload_0
      1: invokespecial #1                  // Method java/lang/Object."<init>":()V

@@ -1,4 +1,4 @@
-package jvm.eight_chapter;
+package eight_chapter;
 
 //局部变量表
 public class LocalVariableTable {
