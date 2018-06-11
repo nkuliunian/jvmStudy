@@ -8,17 +8,29 @@
     <artifactId>jvmStudy</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+            <jedis.version>2.9.0</jedis.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <spring.version>4.3.13.RELEASE</spring.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
+            <version>${commons-lang.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
         </dependency>
     </dependencies>
 
